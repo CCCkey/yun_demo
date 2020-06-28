@@ -1,0 +1,4 @@
+/**index.wxss**/
+.btn-area button {
+  width: 600rpx;
+}

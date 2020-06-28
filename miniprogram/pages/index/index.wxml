@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <form catchsubmit="formSubmit" catchreset="formReset">
+
+    <view class="section">
+      <view class="section-title">姓名</view>
+        <view class="section-input" style="margin: 30rpx 0" >
+          <input name="name" placeholder="输入姓名" />
+        </view> 
+    </view>
+
+    <view class="section">
+      <view class="section-title">手机号</view>
+        <view class="section-input" style="margin: 30rpx 0" >
+          <input name="mobile_number" placeholder="输入手机号" />
+        </view> 
+    </view>
+
+    <view class="btn-area">
+      <button style="margin: 30rpx 0" type="primary" formType="submit">提交</button>
+      <button style="margin: 30rpx 0" formType="reset">重置</button>
+    </view>
+  </form>
+</view>
